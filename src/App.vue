@@ -6,8 +6,8 @@
         <!-- Brand Name -->
             <router-link
             to="/"
-            class="text-white hover:underline"
-            active-class="font-bold underline"
+            class="text-white"
+            active-class="font-bold"
             aria-label="Home"
           >
         <h1 class="text-2xl sm:text-xl font-bold">Groundnut Store</h1>
