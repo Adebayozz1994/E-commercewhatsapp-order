@@ -4,7 +4,14 @@
     <header class="bg-green-600 text-white py-4 shadow-md">
       <div class="container mx-auto flex justify-between items-center px-4">
         <!-- Brand Name -->
+            <router-link
+            to="/"
+            class="text-white hover:underline"
+            active-class="font-bold underline"
+            aria-label="Home"
+          >
         <h1 class="text-2xl sm:text-xl font-bold">Groundnut Store</h1>
+          </router-link>
 
         <!-- Navigation Menu -->
         <div class="hidden md:flex space-x-4">
