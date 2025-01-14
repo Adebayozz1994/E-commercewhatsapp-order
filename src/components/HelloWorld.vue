@@ -143,22 +143,22 @@ export default {
       loading: true,
       testimonials: [
         {
-          name: "Jane Doe",
+          name: "funmilola",
           feedback: "The groundnuts are of exceptional quality and delivered on time!",
           location: "Lagos, Nigeria",
-          image: "https://via.placeholder.com/150"
+          image: "../assets/image/funmi.jpg"
         },
         {
-          name: "John Smith",
+          name: "wuraola",
           feedback: "Excellent customer service and fresh products. Highly recommended!",
-          location: "Abuja, Nigeria",
-          image: "https://via.placeholder.com/150"
+          location: "ibadan, Nigeria",
+          image: "../assets/image/ola.jpg"
         },
         {
-          name: "Mary Johnson",
+          name: "ojo toyeshe",
           feedback: "I was impressed with the fast delivery and organic taste. Will buy again!",
-          location: "Port Harcourt, Nigeria",
-          image: "https://via.placeholder.com/150"
+          location: "abeokuta, Nigeria",
+          image: "../assets/image/tboy.jpg"
         }
       ]
     };
