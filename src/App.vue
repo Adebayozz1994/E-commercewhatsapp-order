@@ -134,40 +134,46 @@
     </div>
 
     <!-- Bottom Navigation -->
-    <nav class="fixed bottom-0 left-0 w-full bg-green-600 text-white shadow-md">
-      <div class="flex justify-around py-2">
-        <router-link
-          to="/"
-          class="text-white flex-1 text-center hover:bg-green-700 py-2"
-        >
-          Home
-        </router-link>
-        <router-link
-          to="/product"
-          class="text-white flex-1 text-center hover:bg-green-700 py-2"
-        >
-          Products
-        </router-link>
-        <router-link
-          to="/about"
-          class="text-white flex-1 text-center hover:bg-green-700 py-2"
-        >
-          About
-        </router-link>
-         <router-link
-          to="/cart"
-          class="text-white flex-1 text-center hover:bg-green-700 py-2"
-        >
-          Cart
-        </router-link>
-        <button
-          @click="goBack"
-          class="text-white flex-1 text-center hover:bg-green-700 py-2"
-        >
-          Back
-        </button>
-      </div>
-    </nav>
+  <nav class="fixed bottom-0 left-0 w-full bg-green-600 text-white shadow-md">
+  <div class="flex justify-around py-2">
+    <router-link
+      to="/"
+      class="text-white flex-1 text-center hover:bg-green-700 py-2"
+    >
+      <i class="fas fa-home"></i>
+      <span class="block text-sm">Home</span>
+    </router-link>
+    <router-link
+      to="/product"
+      class="text-white flex-1 text-center hover:bg-green-700 py-2"
+    >
+      <i class="fas fa-box"></i>
+      <span class="block text-sm">Products</span>
+    </router-link>
+    <router-link
+      to="/about"
+      class="text-white flex-1 text-center hover:bg-green-700 py-2"
+    >
+      <i class="fas fa-info-circle"></i>
+      <span class="block text-sm">About</span>
+    </router-link>
+    <router-link
+      to="/cart"
+      class="text-white flex-1 text-center hover:bg-green-700 py-2"
+    >
+      <i class="fas fa-shopping-cart"></i>
+      <span class="block text-sm">Cart</span>
+    </router-link>
+    <button
+      @click="goBack"
+      class="text-white flex-1 text-center hover:bg-green-700 py-2"
+    >
+      <i class="fas fa-arrow-left"></i>
+      <span class="block text-sm">Back</span>
+    </button>
+  </div>
+</nav>
+
   </div>
 </template>
 
@@ -210,7 +216,7 @@ export default {
       }
     },
     goBack() {
-      this.$router.go(-1); // Navigate to the previous page
+      this.$router.go(-1); 
     },
   },
   mounted() {
